@@ -1,5 +1,6 @@
 BODY{
     background-color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 h1{
@@ -12,14 +13,31 @@ h2{
 
 nav{
     background-color: black;
+    text-align: center;
+    padding:10px;
 }
 
 nav a {
-    color: white
+    color: white;
+    text-decoration: none;
+    margin:15px;
 }
 
 section{
     background-color: white;
     padding:20px;
     margin:20px;
+}
+
+
+#Sobre_Mim{
+    background-color: lightblue;
+}
+
+.nome{
+    color: green;
+}
+
+.cabecario{
+    text-align: center;
 }
